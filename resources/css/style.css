@@ -1,0 +1,93 @@
+/* Global Style */
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+}
+
+/* Header / Nav */
+
+#logo {
+    height: 50px;
+    opacity: 0.9;
+}
+
+.topnav {
+    height: 69px;;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    padding: 10px 0px 0px 10px ;
+    opacity: 0.9;
+}
+
+.topnav nav {
+    float: right;
+    padding-right: 32px;
+}
+
+.topnav nav ul li {
+    display: inline-flex;
+    text-decoration: underline;
+    padding: 0px 8px;
+}
+
+.topnav a:link {
+    color: seashell;
+}
+
+.topnav a:visited {
+    color: seashell;
+}
+
+
+/* Mission */
+
+#mission {
+    display: flex;
+    justify-content: center;
+}
+
+#banner {
+    opacity: 0.9;
+    position: relative;
+    top:79px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(/resources/images/img-mission-background.webp);
+    display:flex;
+    justify-content: center;
+    align-items : center;
+}
+
+#mission_statement {
+    opacity: 0.9;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items : center;
+    justify-content: space-evenly;
+}
+
+#mission_statement h2, #mission_statement h4{
+    margin: 8px 0;
+}
+
+#featured_tea {
+    display: flex;
+    justify-content: center;
+}
+
+#tea_promo {
+    /* border: 1px solid red; */
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    text-align: center;
+    opacity: 0.9;
+}
