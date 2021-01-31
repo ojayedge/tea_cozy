@@ -109,7 +109,7 @@
     height: 200px;
 }
 
-#img_container p {
+.img_container p {
     margin: 10px 0px 24px 0px;
     text-align:center;
 }
